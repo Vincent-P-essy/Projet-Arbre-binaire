@@ -19,7 +19,7 @@ Ce projet, réalisé dans le cadre du DM1 de L2 Informatique, compare deux méth
 
 ---
 
-## ⚙ Compilation
+##  Compilation
 
 Vous pouvez compiler manuellement avec **clang** ou **gcc** :
 
