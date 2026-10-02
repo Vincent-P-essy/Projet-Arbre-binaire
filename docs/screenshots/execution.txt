@@ -1,0 +1,48 @@
+$ ./arbre
+
+=== Test des fonctions de liste ===
+Test alloue_cellule: OK
+Test insere_en_tete: OK
+
+=== Test des fonctions de file ===
+Test initialisation et est_vide: OK
+Test enfiler: OK
+Test defiler: OK
+
+=== Test de construction d'arbres ===
+Construction arbre complet h=2:
+1
+  1
+    1
+    1
+  1
+    1
+    1
+
+Construction arbre filiforme h=3:
+1
+  1
+    1
+      1
+
+=== Test des parcours en largeur ===
+Parcours naif: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+Nombre de visites: 26
+Parcours avec file: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+Nombre de visites: 15
+
+=== Test de performance ===
+
+Hauteur 5:
+Methode naive: 120 visites, 0.000004 secondes
+Methode file: 63 visites, 0.000002 secondes
+
+Hauteur 7:
+Methode naive: 502 visites, 0.000007 secondes
+Methode file: 255 visites, 0.000011 secondes
+
+Hauteur 10:
+Methode naive: 4083 visites, 0.000057 secondes
+Methode file: 2047 visites, 0.000092 secondes
+
+Exit: 0

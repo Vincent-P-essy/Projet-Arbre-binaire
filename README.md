@@ -6,6 +6,12 @@ Ce projet, réalisé dans le cadre du DM1 de L2 Informatique, compare deux méth
 
 ---
 
+## Execution preview
+
+![Projet-Arbre-binaire execution](docs/screenshots/execution.png)
+
+Local execution of `./arbre`. The input and output shown come from the repository example or test fixtures. [Verification](docs/verification.md).
+
 ##  Arborescence du dépôt
 
 ```
