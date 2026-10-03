@@ -6,12 +6,6 @@ Ce projet, réalisé dans le cadre du DM1 de L2 Informatique, compare deux méth
 
 ---
 
-## Execution preview
-
-![Projet-Arbre-binaire execution](docs/screenshots/execution.png)
-
-Local execution of `./arbre`. The input and output shown come from the repository example or test fixtures. [Verification](docs/verification.md).
-
 ##  Arborescence du dépôt
 
 ```
@@ -20,7 +14,6 @@ Local execution of `./arbre`. The input and output shown come from the repositor
 ├── DM_1.c                # Implémentation des parcours et de la file
 ├── main.c                # Programme de test et banc d’essais
 ├── Rapport.pdf           # Rapport détaillé (complexités, résultats)
-└── Makefile              # (optionnel) règles de compilation
 ```
 
 ---
@@ -31,20 +24,10 @@ Vous pouvez compiler manuellement avec **clang** ou **gcc** :
 
 ```bash
 # Génération des fichiers objets
-clang -Wall -Wextra -c DM_1.c -o DM_1.o
-clang -Wall -Wextra -c main.c  -o main.o
-
-# Edition de lien
-clang DM_1.o main.o -o DM_1
+gcc -Wall -Wextra DM_1.c main.c -o DM_1
 ```
 
-Si vous avez un **Makefile**, un simple :
 
-```bash
-make
-```
-
-suffit pour tout compiler.
 
 ---
 
